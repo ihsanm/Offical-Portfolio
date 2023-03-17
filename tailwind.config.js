@@ -6,7 +6,7 @@ module.exports = {
       colors:{
         "ihsan-blue": "#202046",
         "ihsan-lighterblue":"#444464",
-        "percent-bar":"#c7c7d0",
+        "percent-bar":"#84849c",
       }
     },
   },

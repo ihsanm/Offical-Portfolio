@@ -5,7 +5,7 @@ import logo from "../assets/Logo.png"
 const Navbar = ()=> {
     const [active, setActive] = useState("")
     return(
-        <nav className="w-full flex items-center py-1 fixed top-0 z-20 bg-ihsan-blue sticky">
+        <nav className="w-full flex items-center py-1 top-0 z-20 bg-ihsan-blue sticky">
             <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
                 <Link
                 to="/"
