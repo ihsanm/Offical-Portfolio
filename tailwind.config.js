@@ -4,7 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        "ihsan-blue": "#242444",
+        "ihsan-blue": "#202046",
+        "ihsan-lighterblue":"#444464",
+        "percent-bar":"#c7c7d0",
       }
     },
   },
