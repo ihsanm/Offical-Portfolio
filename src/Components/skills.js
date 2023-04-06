@@ -3,26 +3,26 @@ import { DiHtml5, DiCss3, DiBootstrap, DiJavascript, DiGit, DiReact, DiNpm, DiNo
 
 const Skills = ()=>{
 
-    const htmlpercent = {
-        width:"85%"
-    }
-    const csspercent = {
-        width:"55%"
-    }
-    const bootstrappercent = {
-        width:"77%"
-    }
-    const jspercent = {
-        width:"60%"
-    }
-    const reactpercent = {
-        width:"30%"
-    }
+    // const htmlpercent = {
+    //     width:"85%"
+    // }
+    // const csspercent = {
+    //     width:"55%"
+    // }
+    // const bootstrappercent = {
+    //     width:"77%"
+    // }
+    // const jspercent = {
+    //     width:"60%"
+    // }
+    // const reactpercent = {
+    //     width:"30%"
+    // }
     
     
     return(
         <div className="flex flex-wrap py-5">
-            <div className="w-full lg:w-1/2">
+            {/* <div className="w-full lg:w-1/2">
                 <p className="text-white">html</p> 
                 <div class="w-full bg-gray-200 rounded-full h-2.5">
                     <div class="bg-percent-bar h-2.5 rounded-full" style={htmlpercent}> 
@@ -52,7 +52,7 @@ const Skills = ()=>{
                     <div class="bg-percent-bar h-2.5 rounded-full" style={reactpercent}> 
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <div className="w-full lg:w-1/2">
                 <p className="text-white text-center py-5">my tech stack</p>
