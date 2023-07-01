@@ -1,27 +1,25 @@
-import React from "react";
-import logo from "../assets/Logo.png"
+import React from 'react';
+import logo from '../assets/Logo.png';
+import DownloadButton from './sub components/downloadbtn';
 
-const Home = ()=>{
-    return(
-        <section>
-            <div className="container flex mx-auto items-center">
+const Home = () => {
+  return (
+    <section id="home">
+      <div className="container flex flex-col lg:flex-row mx-auto items-center justify-center lg:justify-between space-y-8 lg:space-y-0">
+        <div className="lg:w-1/2">
+          <img src={logo} alt="Logo" className="w-full" />
+        </div>
+        <div className="lg:w-1/2 text-center">
+          <h1 className="text-white text-4xl font-bold mb-4">Hi, I'm Ihsan</h1>
+          <p className="text-white text-lg mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui laborum quasi, incidunt dolore iste nostrum
+            cupiditate voluptas? Laborum, voluptas natus?
+          </p>
+          <DownloadButton />
+        </div>
+      </div>
+    </section>
+  );
+};
 
-                <div className="lg:max-w-lg lg:w-full md:w-1 w-5/6">
-                    <img src={logo} className=""/>
-                </div>
-                <div className="">
-                    <h1 className="text-white px-5">Hi i'm Ihsan</h1>
-                    <p className="text-white px-5">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-                    laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-                    Laborum, voluptas natus?
-                    </p>
-                </div>
-            </div>
-            
-
-        </section>
-    )
-}
-
-export default Home
+export default Home;
