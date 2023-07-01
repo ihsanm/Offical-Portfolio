@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {AiFillLinkedin, AiFillGithub} from "react-icons/ai"
 
 const ContactForm = () => {
   const [name, setName] = useState('');
@@ -78,6 +79,14 @@ const ContactForm = () => {
       >
         Send Message
       </button>
+      <AiFillLinkedin
+              className="text-6xl hover:text-blue-600 hover:cursor-pointer"
+              onClick={() => window.open("https://www.w3schools.com/css/", "_blank")}
+            />    
+        <AiFillGithub
+              className="text-6xl hover:text-blue-600 hover:cursor-pointer"
+              onClick={() => window.open("https://www.w3schools.com/css/", "_blank")}
+            />       
     </form>
   );
 };
