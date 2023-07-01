@@ -7,6 +7,7 @@ module.exports = {
         "ihsan-blue": "#202046",
         "ihsan-lighterblue":"#444464",
         "percent-bar":"#84849c",
+        "cv-blue":"#181836",
       }
     },
   },
