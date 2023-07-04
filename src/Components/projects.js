@@ -42,7 +42,7 @@ const Projects = () => {
                     src={project.image}
                   />
                   {hoveredProject === index && (
-                    <div className="absolute inset-0  bg-ihsan-blue transition duration-300">
+                    <div className="absolute inset-0 bg-gray-900 bg-opacity-70 transition duration-300">
                       <div className="flex flex-col h-full justify-center items-center">
                         <h2 className="text-lg font-medium text-white mb-2">
                           {project.projectName}
@@ -80,5 +80,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-
