@@ -22,7 +22,9 @@ const Projects = () => {
             My Projects
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Here are some of the projects I have worked on.
+          heres a showcase of some of the remarkable projects I have had the privilege to work on. 
+          Each project represents a unique challenge, allowing me to apply my skills,
+          creativity, and problem-solving abilities to deliver impactful solutions.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
