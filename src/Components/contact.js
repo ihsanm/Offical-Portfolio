@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FiPhoneCall } from "react-icons/fi"
 
 const ContactForm = () => {
   const [name, setName] = useState('');
@@ -30,6 +31,15 @@ const ContactForm = () => {
 
   return (
     <form onSubmit={handleSubmit} className="max-w-lg mx-auto" id="contact">
+
+<div className="flex items-center justify-center">
+      <FiPhoneCall className="w-10 m-5 text-6xl mx-auto" />
+    </div>
+
+    <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white text-center">
+            Get in contact!
+          </h1>
+
       <div className="mb-4">
         <label htmlFor="name" className="block text-gray-700 text-sm font-bold mb-2">
           Name
