@@ -12,8 +12,9 @@ const Home = () => {
         <div className="lg:w-1/2 text-center">
           <h1 className="text-white text-4xl font-bold mb-4">Hi, I'm Ihsan</h1>
           <p className="text-white text-lg mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui laborum quasi, incidunt dolore iste nostrum
-            cupiditate voluptas? Laborum, voluptas natus?
+          I'm thrilled to have you here. This portfolio serves as a showcase of my skills,
+           experiences, and accomplishments. It's a glimpse into my journey as a web developer
+           and highlights the projects and work that I'm passionate about.
           </p>
           <DownloadButton />
         </div>
