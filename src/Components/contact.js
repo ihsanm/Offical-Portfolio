@@ -30,6 +30,7 @@ const ContactForm = () => {
   };
 
   return (
+    <section className="text-gray-400 bg-ihsan-darkblue body-font">
     <form onSubmit={handleSubmit} className="max-w-lg mx-auto" id="contact">
 
 <div className="flex items-center justify-center">
@@ -41,7 +42,7 @@ const ContactForm = () => {
           </h1>
 
       <div className="mb-4">
-        <label htmlFor="name" className="block text-gray-700 text-sm font-bold mb-2">
+        <label htmlFor="name" className="block text-white text-sm font-bold mb-2">
           Name
         </label>
         <input
@@ -55,7 +56,7 @@ const ContactForm = () => {
         />
       </div>
       <div className="mb-4">
-        <label htmlFor="email" className="block text-gray-700 text-sm font-bold mb-2">
+        <label htmlFor="email" className="block text-white text-sm font-bold mb-2">
           Email
         </label>
         <input
@@ -69,7 +70,7 @@ const ContactForm = () => {
         />
       </div>
       <div className="mb-4">
-        <label htmlFor="message" className="block text-gray-700 text-sm font-bold mb-2">
+        <label htmlFor="message" className="block text-white text-sm font-bold mb-2">
           Message
         </label>
         <textarea
@@ -89,6 +90,7 @@ const ContactForm = () => {
         Send Message
       </button>
     </form>
+    </section>
   );
 };
 
