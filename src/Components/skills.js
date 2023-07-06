@@ -11,9 +11,8 @@ const Skills = () => {
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Skills &amp; Technologies
           </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit ipsa delectus eum quo voluptas
-            aspernatur accusantium distinctio possimus est.
+          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-200 body-font">
+          I would like to showcase my skills and proficiency in various technologies. With a passion for learning and staying up-to-date with the latest advancements, I constantly strive to enhance my abilities and deliver high-quality results. Here are some of the key skills and technologies I specialize in:
           </p>
         </div>
         <div className="flex justify-center">
