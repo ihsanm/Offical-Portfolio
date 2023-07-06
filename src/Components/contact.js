@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FiPhoneCall } from "react-icons/fi"
+import { AiFillLinkedin , AiFillGithub} from "react-icons/ai"
 
 const ContactForm = () => {
   const [name, setName] = useState('');
@@ -90,6 +91,17 @@ const ContactForm = () => {
         Send Message
       </button>
     </form>
+
+    <div className="flex items-center justify-center">
+      <div className="flex space-x-4">
+        <AiFillGithub className="text-6xl hover:text-gray-600 cursor-pointer" 
+        onClick={() => window.open("https://github.com/ihsanm", "_blank")}
+        />
+        <AiFillLinkedin className="text-6xl hover:text-blue-700 cursor-pointer" 
+        onClick={() => window.open("https://www.linkedin.com/in/ihsan-mahmood-6b7919226/", "_blank")}
+        />
+      </div>
+    </div>
     </section>
   );
 };
